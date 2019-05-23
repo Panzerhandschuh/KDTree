@@ -1,0 +1,15 @@
+{
+    "name": "KDTree.Tests",
+    "references": [
+        "GUID:1f0ba91284d23c048ad6bc5a6e75120c"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": []
+}
