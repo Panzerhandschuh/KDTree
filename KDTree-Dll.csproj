@@ -1,0 +1,72 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>KDTree</RootNamespace>
+    <AssemblyName>KDTree</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Assets\Datastructures\Tests\**" />
+    <Compile Remove="Library\**" />
+    <Compile Remove="Logs\**" />
+    <Compile Remove="Media\**" />
+    <Compile Remove="Packages\**" />
+    <Compile Remove="ProjectSettings\**" />
+    <Compile Remove="Temp\**" />
+    <EmbeddedResource Remove="Assets\Datastructures\Tests\**" />
+    <EmbeddedResource Remove="Library\**" />
+    <EmbeddedResource Remove="Logs\**" />
+    <EmbeddedResource Remove="Media\**" />
+    <EmbeddedResource Remove="Packages\**" />
+    <EmbeddedResource Remove="ProjectSettings\**" />
+    <EmbeddedResource Remove="Temp\**" />
+    <None Remove="Assets\Datastructures\Tests\**" />
+    <None Remove="Library\**" />
+    <None Remove="Logs\**" />
+    <None Remove="Media\**" />
+    <None Remove="Packages\**" />
+    <None Remove="ProjectSettings\**" />
+    <None Remove="Temp\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="GlobalSuppressions.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove=".gitignore" />
+    <None Remove="Assets\Datastructures.meta" />
+    <None Remove="Assets\Datastructures\Heap.meta" />
+    <None Remove="Assets\Datastructures\Heap\BaseHeap.cs.meta" />
+    <None Remove="Assets\Datastructures\Heap\heapTestScene.unity" />
+    <None Remove="Assets\Datastructures\Heap\heapTestScene.unity.meta" />
+    <None Remove="Assets\Datastructures\Heap\KSmallest.cs.meta" />
+    <None Remove="Assets\Datastructures\Heap\MaxHeap.cs.meta" />
+    <None Remove="Assets\Datastructures\Heap\MinHeap.cs.meta" />
+    <None Remove="Assets\Datastructures\KDTree.asmdef" />
+    <None Remove="Assets\Datastructures\KDTree.asmdef.meta" />
+    <None Remove="Assets\Datastructures\KDTree.meta" />
+    <None Remove="Assets\Datastructures\KDTree\KDBounds.cs.meta" />
+    <None Remove="Assets\Datastructures\KDTree\KDNode.cs.meta" />
+    <None Remove="Assets\Datastructures\KDTree\KDQuery.meta" />
+    <None Remove="Assets\Datastructures\KDTree\KDQuery\Base.cs.meta" />
+    <None Remove="Assets\Datastructures\KDTree\KDQuery\Debug.cs.meta" />
+    <None Remove="Assets\Datastructures\KDTree\KDQuery\KDQueryNode.cs.meta" />
+    <None Remove="Assets\Datastructures\KDTree\KDQuery\QueryClosest.cs.meta" />
+    <None Remove="Assets\Datastructures\KDTree\KDQuery\QueryInterval.cs.meta" />
+    <None Remove="Assets\Datastructures\KDTree\KDQuery\QueryKNearest.cs.meta" />
+    <None Remove="Assets\Datastructures\KDTree\KDQuery\QueryRadius.cs.meta" />
+    <None Remove="Assets\Datastructures\KDTree\KDTree.cs.meta" />
+    <None Remove="Assets\Datastructures\Tests.meta" />
+    <None Remove="LICENSE" />
+    <None Remove="README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2019.1.3f1\Editor\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
